@@ -1,0 +1,351 @@
+object S3000: TS3000
+  Left = 587
+  Height = 750
+  Top = 410
+  Width = 1050
+  Caption = '奇勝系統-S3000備份'
+  ClientHeight = 750
+  ClientWidth = 1050
+  DesignTimePPI = 144
+  FormStyle = fsMDIChild
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnKeyPress = FormKeyPress
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '3.2.0.0'
+  WindowState = wsMaximized
+  object Label1: TLabel
+    Left = 343
+    Height = 24
+    Top = 8
+    Width = 245
+    Caption = '選擇要進行的備份/恢復操作'
+    Font.Height = -19
+    Font.Name = 'MS Sans Serif'
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 24
+    Height = 23
+    Top = 60
+    Width = 72
+    Caption = '操作項目'
+  end
+  object Label3: TLabel
+    Left = 120
+    Height = 1
+    Top = 24
+    Width = 1
+  end
+  object Label4: TLabel
+    Left = 24
+    Height = 1
+    Top = 90
+    Width = 1
+  end
+  object Label5: TLabel
+    Left = 24
+    Height = 1
+    Top = 120
+    Width = 1
+  end
+  object Label6: TLabel
+    Left = 24
+    Height = 1
+    Top = 150
+    Width = 1
+  end
+  object Label7: TLabel
+    Left = 24
+    Height = 1
+    Top = 180
+    Width = 1
+  end
+  object Label8: TLabel
+    Left = 24
+    Height = 1
+    Top = 210
+    Width = 1
+  end
+  object Label9: TLabel
+    Left = 24
+    Height = 1
+    Top = 240
+    Width = 1
+  end
+  object Label10: TLabel
+    Left = 24
+    Height = 1
+    Top = 270
+    Width = 1
+  end
+  object Label11: TLabel
+    Left = 24
+    Height = 1
+    Top = 300
+    Width = 1
+  end
+  object Label12: TLabel
+    Left = 24
+    Height = 1
+    Top = 330
+    Width = 1
+  end
+  object Label13: TLabel
+    Left = 24
+    Height = 1
+    Top = 360
+    Width = 1
+  end
+  object Label14: TLabel
+    Left = 24
+    Height = 1
+    Top = 390
+    Width = 1
+  end
+  object Label15: TLabel
+    Left = 24
+    Height = 1
+    Top = 420
+    Width = 1
+  end
+  object Label16: TLabel
+    Left = 24
+    Height = 1
+    Top = 450
+    Width = 1
+  end
+  object SpeedButton1: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 103
+    Width = 210
+    Caption = '1.備份視聽資料下載碎片'
+    OnClick = SpeedButton1Click
+  end
+  object SpeedButton2: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 103
+    Width = 210
+    Caption = '2.回復視聽資料下載碎片'
+    OnClick = SpeedButton2Click
+  end
+  object SpeedButton3: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 141
+    Width = 210
+    Caption = '3.備份總帳成本資料'
+    OnClick = SpeedButton3Click
+  end
+  object SpeedButton4: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 141
+    Width = 210
+    Caption = '4.回復總帳成本資料'
+    OnClick = SpeedButton4Click
+  end
+  object SpeedButton5: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 179
+    Width = 210
+    Caption = '5.備份養護資料'
+    OnClick = SpeedButton5Click
+  end
+  object SpeedButton6: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 179
+    Width = 210
+    Caption = '6.回復養護資料'
+    OnClick = SpeedButton6Click
+  end
+  object SpeedButton7: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 217
+    Width = 210
+    Caption = '7.備份進度查詢資料'
+    OnClick = SpeedButton7Click
+  end
+  object SpeedButton8: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 217
+    Width = 210
+    Caption = '8.回復進度查詢資料'
+    OnClick = SpeedButton8Click
+  end
+  object SpeedButton9: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 255
+    Width = 210
+    Caption = '9.備份帳務資料'
+    OnClick = SpeedButton9Click
+  end
+  object SpeedButton10: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 255
+    Width = 210
+    Caption = '10.回復帳務資料'
+    OnClick = SpeedButton10Click
+  end
+  object SpeedButton11: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 293
+    Width = 210
+    Caption = '11.備份營業稅資料'
+    OnClick = SpeedButton11Click
+  end
+  object SpeedButton12: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 293
+    Width = 210
+    Caption = '12.回復營業稅資料'
+    OnClick = SpeedButton12Click
+  end
+  object SpeedButton13: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 331
+    Width = 210
+    Caption = '13.備份薪資所得稅資料'
+    OnClick = SpeedButton13Click
+  end
+  object SpeedButton14: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 331
+    Width = 210
+    Caption = '14.回復薪資所得稅資料'
+    OnClick = SpeedButton14Click
+  end
+  object SpeedButton16: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 369
+    Width = 210
+    Caption = '16.備份員工類別資料'
+    OnClick = SpeedButton16Click
+  end
+  object SpeedButton17: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 369
+    Width = 210
+    Caption = '17.回復員工類別資料'
+    OnClick = SpeedButton17Click
+  end
+  object SpeedButton18: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 407
+    Width = 210
+    Caption = '18.備份員工月資料'
+    OnClick = SpeedButton18Click
+  end
+  object SpeedButton19: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 407
+    Width = 210
+    Caption = '19.回復員工月資料'
+    OnClick = SpeedButton19Click
+  end
+  object SpeedButton20: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 445
+    Width = 210
+    Caption = '20.備份薪資所得稅資料'
+    OnClick = SpeedButton20Click
+  end
+  object SpeedButton21: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 445
+    Width = 210
+    Caption = '21.回復薪資所得稅資料'
+    OnClick = SpeedButton21Click
+  end
+  object SpeedButton22: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 483
+    Width = 210
+    Caption = '22.備份薪資資料'
+    OnClick = SpeedButton22Click
+  end
+  object SpeedButton23: TSpeedButton
+    Left = 507
+    Height = 38
+    Top = 483
+    Width = 210
+    Caption = '23.回復薪資資料'
+    OnClick = SpeedButton23Click
+  end
+  object SpeedButton15: TSpeedButton
+    Left = 207
+    Height = 38
+    Top = 600
+    Width = 120
+    Caption = '關閉'
+    OnClick = SpeedButton15Click
+  end
+  object CheckBox_nimg: TCheckBox
+    Left = 376
+    Height = 27
+    Top = 72
+    Width = 290
+    Caption = '選擇要搜尋包含NIMGBUY的資料'
+    Checked = True
+    State = cbChecked
+    TabOrder = 0
+  end
+  object Table1: TDbf
+    IndexDefs = <>
+    TableName = 'config.dbf'
+    TableLevel = 4
+    FilterOptions = []
+    Left = 111
+    Top = 47
+    object Table1DATADISK: TStringField
+      FieldKind = fkData
+      FieldName = 'DATADISK'
+      Index = 0
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 1
+    end
+    object Table1OTHERDISK: TStringField
+      FieldKind = fkData
+      FieldName = 'OTHERDISK'
+      Index = 1
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 1
+    end
+    object Table1COMPANY: TStringField
+      FieldKind = fkData
+      FieldName = 'COMPANY'
+      Index = 2
+      LookupCache = False
+      ProviderFlags = [pfInUpdate, pfInWhere]
+      ReadOnly = False
+      Required = False
+      Size = 30
+    end
+  end
+end

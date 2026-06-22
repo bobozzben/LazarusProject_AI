@@ -1,0 +1,166 @@
+object state: Tstate
+  Left = 1913
+  Height = 284
+  Top = 241
+  Width = 972
+  BorderStyle = bsNone
+  Caption = '目前狀態'
+  ClientHeight = 284
+  ClientWidth = 972
+  Color = 9981440
+  DesignTimePPI = 144
+  Font.Color = clWindowText
+  Font.Height = -17
+  Font.Name = 'MS Sans Serif'
+  OnClose = FormClose
+  OnShow = FormShow
+  Position = poDefault
+  LCLVersion = '3.2.0.0'
+  Visible = True
+  object Label1: TLabel
+    Left = 24
+    Height = 36
+    Top = 24
+    Width = 371
+    Caption = '目前現在正在備份客戶代號為:'
+    Font.CharSet = CHINESEBIG5_CHARSET
+    Font.Color = clYellow
+    Font.Height = -28
+    Font.Name = '微軟正黑體'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 160
+    Height = 29
+    Top = 100
+    Width = 29
+    Caption = '10'
+    Font.Color = clRed
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label3: TLabel
+    Left = 220
+    Height = 32
+    Top = 96
+    Width = 8
+    Caption = '/'
+    Font.Color = 13761786
+    Font.Height = -29
+    Font.Name = 'MS Sans Serif'
+    ParentFont = False
+  end
+  object Labelp: TLabel
+    Left = 256
+    Height = 29
+    Top = 100
+    Width = 29
+    Caption = '10'
+    Font.Color = clRed
+    Font.Height = -24
+    Font.Name = 'MS Sans Serif'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label5: TLabel
+    Left = 40
+    Height = 40
+    Top = 96
+    Width = 80
+    Caption = '進度 :'
+    Font.CharSet = CHINESEBIG5_CHARSET
+    Font.Color = 12902911
+    Font.Height = -32
+    Font.Name = '微軟正黑體'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 318
+    Height = 1
+    Top = 76
+    Width = 1
+    Font.CharSet = CHINESEBIG5_CHARSET
+    Font.Color = 8843460
+    Font.Height = -20
+    Font.Name = '新細明體'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object Label7: TLabel
+    Left = 304
+    Height = 20
+    Top = 64
+    Width = 48
+    Caption = 'Label7'
+    Visible = False
+  end
+  object Label8: TLabel
+    Left = 0
+    Height = 20
+    Top = 0
+    Width = 972
+    Align = alTop
+    AutoSize = False
+  end
+  object Button1: TButton
+    Left = 656
+    Height = 70
+    Top = 168
+    Width = 230
+    Caption = '離開'
+    Font.CharSet = CHINESEBIG5_CHARSET
+    Font.Color = clGreen
+    Font.Height = -24
+    Font.Name = '新細明體'
+    ParentFont = False
+    TabOrder = 0
+    Visible = False
+    OnClick = Button1Click
+  end
+  object Edit2: TEdit
+    Left = 424
+    Height = 31
+    Top = 24
+    Width = 134
+    BorderStyle = bsNone
+    Color = 9981440
+    Font.CharSet = CHINESEBIG5_CHARSET
+    Font.Color = clLime
+    Font.Height = -24
+    Font.Name = '微軟正黑體'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 1
+  end
+  object Edit3: TEdit
+    Left = 568
+    Height = 31
+    Top = 24
+    Width = 230
+    BorderStyle = bsNone
+    Color = 9981440
+    Font.CharSet = CHINESEBIG5_CHARSET
+    Font.Color = clLime
+    Font.Height = -24
+    Font.Name = '微軟正黑體'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+    ReadOnly = True
+    TabStop = False
+    TabOrder = 2
+  end
+end

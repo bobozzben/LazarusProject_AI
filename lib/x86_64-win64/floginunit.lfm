@@ -1,0 +1,74 @@
+object FLogin: TFLogin
+  Left = 586
+  Height = 297
+  Top = 231
+  Width = 458
+  BorderIcons = [biSystemMenu]
+  BorderStyle = bsDialog
+  Caption = '登入'
+  ClientHeight = 297
+  ClientWidth = 458
+  Font.CharSet = CHINESEBIG5_CHARSET
+  Font.Height = -16
+  Font.Name = '微軟正黑體 Light'
+  Font.Pitch = fpVariable
+  Font.Quality = fqDraft
+  OnCloseQuery = FormCloseQuery
+  OnShow = FormShow
+  Position = poMainFormCenter
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 89
+    Height = 16
+    Top = 119
+    Width = 68
+    Caption = '登入密碼:'
+    Font.CharSet = CHINESEBIG5_CHARSET
+    Font.Height = -16
+    Font.Name = '新細明體'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object BitBtn1: TBitBtn
+    Left = 95
+    Height = 33
+    Top = 206
+    Width = 109
+    Caption = '確定'
+    Default = True
+    ModalResult = 1
+    OnClick = BitBtn1Click
+    TabOrder = 1
+  end
+  object BitBtn2: TBitBtn
+    Left = 247
+    Height = 33
+    Top = 205
+    Width = 109
+    Cancel = True
+    Caption = '離開'
+    ModalResult = 2
+    OnClick = BitBtn2Click
+    TabOrder = 2
+  end
+  object Label2: TLabel
+    Left = 85
+    Height = 24
+    Top = 59
+    Width = 285
+    Caption = '刪除資料密碼，請洽奇勝客戶人員'
+    Font.Color = clRed
+    Font.Height = -19
+    ParentFont = False
+  end
+  object MaskEdit1: TEdit
+    Left = 165
+    Height = 28
+    Top = 117
+    Width = 184
+    EchoMode = emPassword
+    PasswordChar = '*'
+    TabOrder = 0
+  end
+end

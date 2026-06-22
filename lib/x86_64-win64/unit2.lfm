@@ -1,0 +1,26 @@
+object mail: Tmail
+  Left = 1228
+  Height = 270
+  Top = 577
+  Width = 630
+  Caption = 'Mail'
+  ClientHeight = 270
+  ClientWidth = 630
+  Color = clBtnFace
+  DesignTimePPI = 144
+  Font.Color = clWindowText
+  Font.Height = -17
+  Font.Name = 'MS Sans Serif'
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 24
+    Height = 23
+    Top = 36
+    Width = 329
+    Caption = 'Mail functionality is not yet migrated.'
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+end

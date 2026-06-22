@@ -1,0 +1,101 @@
+object S5000f: TS5000f
+  Left = 1056
+  Height = 630
+  Top = 438
+  Width = 1080
+  Caption = 'S5000 備份/回置'
+  ClientHeight = 630
+  ClientWidth = 1080
+  DesignTimePPI = 144
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '3.2.0.0'
+  object Label1: TLabel
+    Left = 36
+    Height = 23
+    Top = 24
+    Width = 335
+    Caption = '請選擇要執行的 S5000 備份 / 回置 程序。'
+  end
+  object Label3: TLabel
+    Left = 36
+    Height = 23
+    Top = 66
+    Width = 45
+    Caption = '來源: '
+  end
+  object SpeedButton1: TSpeedButton
+    Left = 36
+    Height = 60
+    Top = 120
+    Width = 330
+    Caption = '1. 備份資產資料'
+    OnClick = SpeedButton1Click
+  end
+  object SpeedButton2: TSpeedButton
+    Left = 390
+    Height = 60
+    Top = 120
+    Width = 330
+    Caption = '2. 回置資產資料'
+    OnClick = SpeedButton2Click
+  end
+  object SpeedButton3: TSpeedButton
+    Left = 744
+    Height = 60
+    Top = 120
+    Width = 330
+    Caption = '3. 備份帳務資料'
+    OnClick = SpeedButton3Click
+  end
+  object SpeedButton4: TSpeedButton
+    Left = 36
+    Height = 60
+    Top = 198
+    Width = 330
+    Caption = '4. 回置帳務資料'
+    OnClick = SpeedButton4Click
+  end
+  object SpeedButton5: TSpeedButton
+    Left = 390
+    Height = 60
+    Top = 198
+    Width = 330
+    Caption = '5. 備份其他資料'
+    OnClick = SpeedButton5Click
+  end
+  object SpeedButton6: TSpeedButton
+    Left = 744
+    Height = 60
+    Top = 198
+    Width = 330
+    Caption = '6. 回置其他資料'
+    OnClick = SpeedButton6Click
+  end
+  object SpeedButton13: TSpeedButton
+    Left = 36
+    Height = 60
+    Top = 282
+    Width = 330
+    Caption = '13. 備份年度資料'
+    OnClick = SpeedButton13Click
+  end
+  object SpeedButton14: TSpeedButton
+    Left = 390
+    Height = 60
+    Top = 282
+    Width = 330
+    Caption = '14. 回置年度資料'
+    OnClick = SpeedButton14Click
+  end
+  object ButtonClose: TButton
+    Left = 900
+    Height = 45
+    Top = 540
+    Width = 132
+    Caption = '關閉'
+    TabOrder = 0
+    OnClick = ButtonCloseClick
+  end
+end

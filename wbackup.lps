@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="wbackup.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="27" Y="15"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="advunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="advres"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="48" Y="16"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="choice_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="choice"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="80"/>
+        <CursorPos X="86" Y="99"/>
+        <UsageCount Value="202"/>
+        <Bookmarks Count="3">
+          <Item0 X="5" Y="525" ID="3"/>
+          <Item1 Y="193" ID="1"/>
+          <Item2 Y="259" ID="2"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="floginunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="17"/>
+        <CursorPos Y="17"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mainback_uint.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="mainback"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="5"/>
+        <TopLine Value="86"/>
+        <CursorPos X="153" Y="93"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="s5000_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="S5000f"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="7"/>
+        <TopLine Value="50"/>
+        <CursorPos X="117" Y="70"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="frDelete.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmDelete"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="169"/>
+        <CursorPos X="147" Y="188"/>
+        <UsageCount Value="203"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="mainmenu_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="MainForm1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="MainMenu_unit"/>
+        <TopLine Value="261"/>
+        <CursorPos X="69" Y="280"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="s3000_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="S3000"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="8"/>
+        <TopLine Value="82"/>
+        <CursorPos X="126" Y="89"/>
+        <UsageCount Value="202"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="warningu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="WarningF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="15" Y="33"/>
+        <UsageCount Value="207"/>
+      </Unit>
+      <Unit>
+        <Filename Value="dropboxu.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="DropBoxForm"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="10"/>
+        <TopLine Value="19"/>
+        <CursorPos X="11" Y="19"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="modipass_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="ModiPassF"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="11"/>
+        <TopLine Value="17"/>
+        <CursorPos X="90" Y="25"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="noPictureback_uint.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="noPictureback"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="9"/>
+        <TopLine Value="51"/>
+        <CursorPos X="149" Y="69"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="fragmentback_uint.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fragmentPictureback"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="6"/>
+        <TopLine Value="28"/>
+        <CursorPos X="105" Y="50"/>
+        <UsageCount Value="207"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="stateunit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="state"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="21"/>
+        <CursorPos X="64" Y="38"/>
+        <UsageCount Value="202"/>
+      </Unit>
+      <Unit>
+        <Filename Value="toolsfunction_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="ToolsFunction_unit"/>
+        <EditorIndex Value="12"/>
+        <TopLine Value="98"/>
+        <CursorPos X="49" Y="104"/>
+        <UsageCount Value="313"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="unit2.pas"/>
+        <ComponentName Value="mail"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="104" Y="20"/>
+        <UsageCount Value="183"/>
+      </Unit>
+      <Unit>
+        <Filename Value="floginunit.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="32"/>
+        <CursorPos X="44" Y="47"/>
+        <UsageCount Value="4"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="s3000unit.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="69" Y="14"/>
+        <UsageCount Value="3"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="choiceunit.lfm"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="54" Y="13"/>
+        <UsageCount Value="3"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\lazarus\lcl\controls.pp"/>
+        <UnitName Value="Controls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1803"/>
+        <CursorPos X="23" Y="1819"/>
+        <UsageCount Value="4"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\lazarus\lcl\include\application.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="433"/>
+        <CursorPos X="35" Y="450"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\lazarus\lcl\include\customform.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2944"/>
+        <CursorPos X="9" Y="2952"/>
+        <UsageCount Value="7"/>
+      </Unit>
+      <Unit>
+        <Filename Value="googleoauth_unit.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="GoogleOAuth_unit"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="208"/>
+        <CursorPos X="122" Y="203"/>
+        <UsageCount Value="20"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="C:\fpcupdeluxe\fpcsrc\packages\winunits-base\src\wininet.pp"/>
+        <UnitName Value="WinINet"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="2462"/>
+        <CursorPos X="123" Y="2479"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="86" TopLine="85"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="466" Column="5" TopLine="432"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="315" Column="17" TopLine="301"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="199" Column="17" TopLine="181"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="199" Column="17" TopLine="170"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="210" Column="17" TopLine="181"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="221" Column="17" TopLine="192"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="245" Column="17" TopLine="216"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="277" Column="19" TopLine="248"/>
+      </Position>
+      <Position>
+        <Filename Value="mainback_uint.pas"/>
+        <Caret Line="91" TopLine="64"/>
+      </Position>
+      <Position>
+        <Filename Value="mainback_uint.pas"/>
+        <Caret Line="105" Column="14" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="fragmentback_uint.pas"/>
+        <Caret Line="69" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="s5000_unit.pas"/>
+        <Caret Line="74" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="s3000_unit.pas"/>
+        <Caret Line="100" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="noPictureback_uint.pas"/>
+        <Caret Line="76" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="noPictureback_uint.pas"/>
+        <Caret Line="55" Column="74" TopLine="51"/>
+      </Position>
+      <Position>
+        <Filename Value="s5000_unit.pas"/>
+        <Caret Line="124" TopLine="89"/>
+      </Position>
+      <Position>
+        <Filename Value="s5000_unit.pas"/>
+        <Caret Line="62" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="s3000_unit.pas"/>
+        <Caret Line="76" Column="9" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="s3000_unit.pas"/>
+        <Caret Line="104" Column="50" TopLine="83"/>
+      </Position>
+      <Position>
+        <Filename Value="s3000_unit.pas"/>
+        <Caret Line="101" Column="90" TopLine="76"/>
+      </Position>
+      <Position>
+        <Filename Value="s3000_unit.pas"/>
+        <Caret Line="76" Column="9" TopLine="58"/>
+      </Position>
+      <Position>
+        <Filename Value="s3000_unit.pas"/>
+        <Caret Line="106" Column="49" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="s3000_unit.pas"/>
+        <Caret Line="104" Column="10" TopLine="86"/>
+      </Position>
+      <Position>
+        <Filename Value="frDelete.pas"/>
+        <Caret Line="61" TopLine="36"/>
+      </Position>
+      <Position>
+        <Filename Value="mainmenu_unit.pas"/>
+        <Caret Line="279" Column="69" TopLine="261"/>
+      </Position>
+      <Position>
+        <Filename Value="choice_unit.pas"/>
+        <Caret Line="259" Column="51" TopLine="236"/>
+      </Position>
+      <Position>
+        <Filename Value="googleoauth_unit.pas"/>
+      </Position>
+      <Position>
+        <Filename Value="googleoauth_unit.pas"/>
+        <Caret Line="203" Column="17" TopLine="182"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
